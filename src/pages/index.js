@@ -3,6 +3,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
+import AdditionalInfo from "@site/src/components/AdditionalInfo";
 
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
@@ -32,10 +33,11 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout description="Löydä oma helpotus - LEX">
+    <Layout description="Löydä oma helpotus - OTLEX">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <AdditionalInfo />
       </main>
     </Layout>
   );

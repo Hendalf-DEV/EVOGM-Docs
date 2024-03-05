@@ -1,0 +1,26 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docsit.category.Alku": {
+    "message": "Alku",
+    "description": "The label for category Alku in sidebar docsit"
+  },
+  "sidebar.docsit.category.Alku.link.generated-index.description": {
+    "message": "Helppo alku ohjelmointiin",
+    "description": "The generated-index page description for category Alku in sidebar docsit"
+  },
+  "sidebar.docsit.category.SQL": {
+    "message": "SQL",
+    "description": "The label for category SQL in sidebar docsit"
+  },
+  "sidebar.docsit.category.SQL.link.generated-index.description": {
+    "message": "SQL kielen materiaali",
+    "description": "The generated-index page description for category SQL in sidebar docsit"
+  },
+  "sidebar.docsit.category.Tutorial - Extras": {
+    "message": "Tutorial - Extras",
+    "description": "The label for category Tutorial - Extras in sidebar docsit"
+  }
+}
