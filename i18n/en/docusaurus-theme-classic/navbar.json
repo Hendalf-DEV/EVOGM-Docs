@@ -1,0 +1,18 @@
+{
+  "logo.alt": {
+    "message": "Omnia",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Helpottava materiaali": {
+    "message": "Helpottava materiaali",
+    "description": "Navbar item with label Helpottava materiaali"
+  },
+  "item.label.Blogi": {
+    "message": "Blogi",
+    "description": "Navbar item with label Blogi"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
