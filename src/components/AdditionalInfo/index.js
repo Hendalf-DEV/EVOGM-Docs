@@ -1,15 +1,21 @@
 import clsx from "clsx";
 import Heading from "@theme/Heading";
+import Translate from "@docusaurus/Translate";
 import styles from "./styles.module.css";
 
 const LisaInfo = [
   {
-    title: "VAROITUS, APUA, OMNIA ÄLÄ KOSKE",
+    title: (
+      <Translate description="The homepage caution text">
+        VAROITUS, APUA, OMNIA ÄLÄ KOSKE
+      </Translate>
+    ),
     description: (
-      <>
-        Tämä ei ole virallinen Omnian sivusto, eikä Omnia hallitse tietoja joita tänne on kirjattu. Näihin tiedostoihin voi tehdä muutoksia githubin kautta, tekemällä pull-request, jos kiinnostaa.
-      </>
-
+      <Translate description="The homepage caution text">
+        Tämä ei ole virallinen Omnian sivusto, eikä Omnia hallitse tietoja joita
+        tänne on kirjattu. Näihin tiedostoihin voi tehdä muutoksia githubin
+        kautta, tekemällä pull-request, jos kiinnostaa.
+      </Translate>
     ),
   },
 ];

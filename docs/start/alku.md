@@ -2,13 +2,12 @@
 sidebar_position: 1
 ---
 
-# Tervetuloa
-
-## TiVi Omnia helpotus sivusto, mitä käsitellään?
+# TiVi Omnia helpotus sivusto, mitä käsitellään?
 
 Hei! Aloitetaan pienemmästä, jatketaan suurempaan! Tällä sivustolla löydätte kaikki kelvolliset työkalut TiVi tehtävien tekemiseen. Jos teillä on kysyttävää ettikää sivuston tekijä >:O
 
 ## VSCode käyttö
+
 ### Extensions
 
 Extensions ovat laajennuksia jotka lisäävät VSCode:lle toimintoa. Niitä ovat esimerkiksi syntax värit koodeille, automaattinen tabi, jne. Monet ovat hyödyllisiä ja monet ovat hyödyttömiä. Ja kuinka me sitten ymmärrämme mitä laajennuksia on hyödyllistä asentaa? No siitäpä kerronkin myöhemmin, mutta vielä vähän enemmän VSCode infoa.

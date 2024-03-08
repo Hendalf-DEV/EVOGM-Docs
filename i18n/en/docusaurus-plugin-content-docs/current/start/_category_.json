@@ -1,8 +1,8 @@
 {
-  "label": "Alku",
+  "label": "Start",
   "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "Helppo alku ohjelmointiin"
+    "description": "Easy start to code"
   }
 }

@@ -2,9 +2,7 @@
 sidebar_position: 1
 ---
 
-# Tervetuloa
-
-## TiVi Omnia helpotus sivusto, mitä käsitellään?
+# TiVi Omnia helpotus sivusto, mitä käsitellään?
 
 Hei! Aloitetaan pienemmästä, jatketaan suurempaan! Tällä sivustolla löydätte kaikki kelvolliset työkalut TiVi tehtävien tekemiseen. Jos teillä on kysyttävää ettikää sivuston tekijä >:O
 

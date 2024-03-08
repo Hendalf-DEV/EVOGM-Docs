@@ -2,6 +2,7 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
+import Translate from "@docusaurus/Translate";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import AdditionalInfo from "@site/src/components/AdditionalInfo";
 
@@ -22,7 +23,9 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/category/alku"
           >
-            Löydä oma helpotus täältä!
+            <Translate description="Homepage button">
+              Löydä oma helpotus täältä!
+            </Translate>
           </Link>
         </div>
       </div>

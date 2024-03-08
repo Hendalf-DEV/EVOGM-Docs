@@ -1,26 +1,35 @@
 import clsx from "clsx";
 import Heading from "@theme/Heading";
+import Translate from "@docusaurus/Translate";
 import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: "Helpota VSCode käyttämistä",
+    title: (
+      <Translate description="The homepage VSCode heading text">
+        Helpota VSCode käyttämistä
+      </Translate>
+    ),
     Svg: require("@site/static/img/vscode.svg").default,
     description: (
-      <>
+      <Translate description="The homepage VSCode text">
         Tämä web-sivu on tehty TiVi ryhmälle. Käyttäkää kaikkea mitä tänne on
         laitettu sillä nämä voivat helpottaa opetustane!
-      </>
+      </Translate>
     ),
   },
   {
-    title: "Koodaus on niin vaikeaa",
+    title: (
+      <Translate description="The homepage caution text">
+        Koodaus on niin vaikeaa
+      </Translate>
+    ),
     Svg: require("@site/static/img/logos.svg").default,
     description: (
-      <>
-        Eipä ole, käy kattoo vähä noita <code>HELPOTUKSIA</code> joita oon
-        tehny! Ne kyl auttaa ees jonkin verran ja helpottaa elämää.
-      </>
+      <Translate description="The homepage Coding heading text">
+        Eipä ole, käy kattoo vähä noita HELPOTUKSIA joita oon tehny! Ne kyl
+        auttaa ees jonkin verran ja helpottaa elämää.
+      </Translate>
     ),
   },
 ];

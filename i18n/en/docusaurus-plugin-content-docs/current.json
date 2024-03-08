@@ -4,11 +4,11 @@
     "description": "The label for version current"
   },
   "sidebar.docsit.category.Alku": {
-    "message": "Alku",
+    "message": "Start",
     "description": "The label for category Alku in sidebar docsit"
   },
   "sidebar.docsit.category.Alku.link.generated-index.description": {
-    "message": "Helppo alku ohjelmointiin",
+    "message": "Easy start to code",
     "description": "The generated-index page description for category Alku in sidebar docsit"
   },
   "sidebar.docsit.category.SQL": {
@@ -18,9 +18,5 @@
   "sidebar.docsit.category.SQL.link.generated-index.description": {
     "message": "SQL kielen materiaali",
     "description": "The generated-index page description for category SQL in sidebar docsit"
-  },
-  "sidebar.docsit.category.Tutorial - Extras": {
-    "message": "Tutorial - Extras",
-    "description": "The label for category Tutorial - Extras in sidebar docsit"
   }
 }
