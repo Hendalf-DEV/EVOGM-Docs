@@ -1,23 +1,21 @@
 ---
-sidebar_position: 0
+sidebar_position: 1
 ---
 
-# Welcome
+# TiVi Omnia relief site, what is it?
 
-## TiVi Omnia help page, what is used for?
-
-Hello! Let's start from small, and continue to grow into something bigger! On this page you'll find useful tools that will help you do TiVi assigments. If you have questions, be free to ask them from the website creator >:O
+Hello! Let's start from small and move into something bigger! On this site you'll find useful tools for your TiVi assigments. If you have something to ask, feel free to contact creator >:O
 
 ## Using VSCode
 
 ### Extensions
 
-Extensions are used to add more functionality for VSCode. They could be by example syntax highlighting, auto code tabbing etc. Many of them are very useful, but there is way more unuseful stuff that wont work as you expect. So how do we know, what extensions to install so we won't go into loop of searching of a working one? Well, were about to get there soon, but not now, I need to tell you a bit more about VSCode.
+Extensions are used to add VSCode more flexibility and functionality. They are by example, syntax highlighting for HTML or Python, auto tabbing, etc. Many of them are useful but there are way more unuseful stuff around. So which extensions to install? Well, we about to get there but later, I need to explain a bit more about VSCode.
 
-### Workspace what is it?
+### Workspace, what is it?
 
 Workspace on työalusta. Tiedän, ei kovin paljon kerro tämä, siksi käsittelen tätä tarkemmin.
-VSCode:ssa on olemassa workspaces mahdollisuus, joka on microsoftin tekemä systeemi.
-Oletaan esimerkiksi että tiedosto kansiossa on `python.code-workspace` ja `html.code-workspace` näissä tiedostoissa on tallennettu data missä tietokoneessa on kansio joka pitää avata, eli vaikka python workspace avaa kansion `C:\python` ja html workspace avaa kansion `C:\Users\Admin\Documents\html`. Nämä workspace tiedostot ovat todella hyödyllisiä ja helppo käyttää, sillä sipuli eiks niin? Mutta kerron myöhemmin kuinka niitä käytetään vielä tehokkaamin.
+VSCode got workspaces, they help you to jump from folder to folder easier, without searching for it in file explorer.
+For example, suppose that we got file in documents that is `python.code-workspace` and `html.code-workspace` these files contain data on which computer has a folder to open, e.g. python workspace opens a folder `C:\python` and html workspace opens folder `C:\Users\Admin\Documents\html`. These workspace files are very useful and easy to use, ain't that so? But I'll tell you later how to use them more effectively.
 
-### Ei ole loppu, tulee lisää myöhemmin
+### Ain't end, about to come more later

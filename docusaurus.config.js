@@ -32,7 +32,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "fi",
-    locales: ["en", "fi", "ru"],
+    locales: ["fi", "en", "ru"],
   },
 
   presets: [
@@ -93,39 +93,23 @@ const config = {
           },
           {
             type: "localeDropdown",
-            position: "left",
+            position: "right",
           },
         ],
       },
-      // algolia: {
-      //   // The application ID provided by Algolia
-      //   appId: 'YOUR_APP_ID',
+      algolia: {
+        appId: "CK1AJT9QQ0",
 
-      //   // Public API key: it is safe to commit it
-      //   apiKey: 'YOUR_SEARCH_API_KEY',
+        apiKey: "aa7f256242776af7e00668f60de6f43a",
 
-      //   indexName: 'YOUR_INDEX_NAME',
+        indexName: "omnia-fi",
 
-      //   // Optional: see doc section below
-      //   contextualSearch: true,
+        contextualSearch: true,
 
-      //   // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-      //   externalUrlRegex: 'external\\.com|domain\\.com',
+        searchParameters: {},
 
-      //   // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
-      //   replaceSearchResultPathname: {
-      //     from: '/docs/', // or as RegExp: /\/docs\//
-      //     to: '/',
-      //   },
-
-      //   // Optional: Algolia search parameters
-      //   searchParameters: {},
-
-      //   // Optional: path for search page that enabled by default (`false` to disable it)
-      //   searchPagePath: 'search',
-
-      //   //... other Algolia params
-      // },
+        searchPagePath: false,
+      },
 
       footer: {
         style: "dark",
