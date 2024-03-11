@@ -29,4 +29,4 @@ Nyt kun olette kirjautuneet, teillä pitää olla tälläinen näkymä edessä
 
 Tehkää SQL perusteet kurssi ja SQL ja relaatiotietokannat. Nämä kurrsit ovat tärkeitä, ja tarpeellisia SQL kokeita varten, ja muuten.
 
-[Siirry SQL materiaaleihin](../sql/materiaali)
+[Siirry SQL materiaaleihin](../sql/johdatus)
