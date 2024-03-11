@@ -28,4 +28,4 @@ Now that you're logged in, you need to have this view in front of you
 
 Do a SQL Perusteet course and SQL and relational databases. These courses are important, and necessary for SQL exams, and by the way.
 
-[Siirry SQL materiaaleihin](../sql/johdatus)
+[Siirry SQL materiaaleihin](../sql/materiaali)
