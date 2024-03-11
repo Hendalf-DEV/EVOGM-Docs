@@ -12,7 +12,6 @@ const config = {
   title: "OTLEX",
   tagline: "- Omnia TiVi Life Extender -",
   favicon: "img/favicon.ico",
-
   // Set the production url of your site here
   url: "https://omnia-docs.fi",
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -63,6 +62,7 @@ const config = {
       }),
     ],
   ],
+  themes: ['@docusaurus/theme-live-codeblock'],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({

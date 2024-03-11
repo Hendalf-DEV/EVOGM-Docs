@@ -18,5 +18,13 @@
   "sidebar.docsit.category.SQL.link.generated-index.description": {
     "message": "SQL kielen materiaali",
     "description": "The generated-index page description for category SQL in sidebar docsit"
+  },
+  "sidebar.docsit.category.VSCode": {
+    "message": "VSCode",
+    "description": "The label for category VSCode in sidebar docsit"
+  },
+  "sidebar.docsit.category.VSCode.link.generated-index.description": {
+    "message": "Visual Studio Code käyttöohjeet",
+    "description": "The generated-index page description for category VSCode in sidebar docsit"
   }
 }
