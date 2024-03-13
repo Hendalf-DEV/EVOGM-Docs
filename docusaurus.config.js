@@ -44,7 +44,20 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
+          editUrl: ({ versionDocsDirPath, docPath }) =>
+            `https://github.com/Hendalf-DEV/Omnia-TiviDocs/edit/main/${versionDocsDirPath}/${docPath}`,
+          editLocalizedFiles: false,
+          editCurrentVersion: false,
+          routeBasePath: "docs",
+          include: ["**/*.md", "**/*.mdx"],
+          exclude: [
+            "**/_*.{js,jsx,ts,tsx,md,mdx}",
+            "**/_*/**",
+            "**/*.test.{js,jsx,ts,tsx}",
+            "**/__tests__/**",
+          ],
         },
+
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
