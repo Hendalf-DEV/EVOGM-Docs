@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # SQL Johdatus
 SQL eli Structured Query Language on kieli jolla rakennetaan ja ylläpidätään tietokantoja.
 Tietokantoja käytetään yleisesti kaikkialla tietojen ylläpitämiseen, esimerkiksi kirjastossa, Microsoftissa, Omniassa, verkkokaupoissa jne.

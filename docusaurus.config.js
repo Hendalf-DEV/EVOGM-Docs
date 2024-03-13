@@ -9,10 +9,9 @@ import "dotenv/config";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "OTLEX",
+  title: "OTLEX - Omnia tekniikka avustaja",
   tagline: "- Omnia TiVi Life Extender -",
   favicon: "img/favicon.ico",
-
   // Set the production url of your site here
   url: "https://omnia-docs.fi",
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -44,7 +43,20 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
+          editUrl: ({ versionDocsDirPath, docPath }) =>
+            `https://github.com/Hendalf-DEV/Omnia-TiviDocs/edit/main/${versionDocsDirPath}/${docPath}`,
+          editLocalizedFiles: false,
+          editCurrentVersion: false,
+          routeBasePath: "docs",
+          include: ["**/*.md", "**/*.mdx"],
+          exclude: [
+            "**/_*.{js,jsx,ts,tsx,md,mdx}",
+            "**/_*/**",
+            "**/*.test.{js,jsx,ts,tsx}",
+            "**/__tests__/**",
+          ],
         },
+
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
@@ -65,13 +77,31 @@ const config = {
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+
     ({
+      metadata: [
+        {
+          name: "keywords",
+          content:
+            "omnia, tieto- ja viestintätekniikka, koodaaminen, omnia github, omnia life extender, otlex, sql koodaus, vscode käyttö",
+        },
+      ],
+      headTags: [
+        // Declare a <link> preconnect tag
+        {
+          tagName: "link",
+          attributes: {
+            rel: "preconnect",
+            href: "https://omnia-docs.fi",
+          },
+        },
+      ],
       colorMode: {
         defaultMode: "dark",
         disableSwitch: true,
       },
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/seo.png",
       navbar: {
         title: "",
         logo: {

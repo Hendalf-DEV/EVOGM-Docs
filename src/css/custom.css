@@ -49,7 +49,7 @@
 [data-theme='dark'] .DocSearch {
   --docsearch-text-color: var(--ifm-font-color-base);
   --docsearch-muted-color: var(--ifm-color-secondary-darkest);
-  --docsearch-container-background: rgba(47, 55, 69, 0.7);
+  --docsearch-container-background: #171b23de;
   /* Modal */
   --docsearch-modal-background: var(--ifm-background-color);
   /* Search box */

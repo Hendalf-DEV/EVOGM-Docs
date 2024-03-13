@@ -15,7 +15,7 @@ language = "nodejs"
 run = ["sh", "-c", "npm run serve -- --port 80 --host 0.0.0.0"]
 deploymentTarget = "cloudrun"
 ignorePorts = false
-build = ["sh", "-c", "npm run-script build"]
+build = ["sh", "-c", "rm -r i18n; npm run write-translations; npm run crowdin upload; npm run crowdin download; npm run-script build"]
 
 [[ports]]
 localPort = 80
