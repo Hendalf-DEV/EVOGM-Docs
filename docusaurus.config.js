@@ -103,7 +103,6 @@ const config = {
       // Replace with your project's social card
       image: "img/seo.png",
       navbar: {
-        title: "",
         logo: {
           alt: "Omnia",
           src: "img/logo.svg",
