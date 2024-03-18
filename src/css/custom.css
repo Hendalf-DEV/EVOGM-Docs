@@ -19,7 +19,7 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-    --ifm-color-primary: #d44404;
+    --ifm-color-primary: #9104d4;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-heading-color: #ffffff;
@@ -37,7 +37,7 @@
 }
 
 :where(.button--secondary):not(.button--outline):hover {
-  background-color: #d44404;
+  background-color: #9104d4;
   --ifm-button-border-color: #ffffff;;
   color: white
 }

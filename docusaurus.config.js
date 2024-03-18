@@ -9,11 +9,11 @@ import "dotenv/config";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "OTLEX - Omnia tekniikka avustaja",
-  tagline: "- Omnia TiVi Life Extender -",
+  title: "ELEX - Opi uutta",
+  tagline: "- Get more by learning -",
   favicon: "img/favicon.ico",
   // Set the production url of your site here
-  url: "https://omnia-docs.fi",
+  url: "https://evogm.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -21,7 +21,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "Hendalf-DEV", // Usually your GitHub org/user name.
-  projectName: "Omnia-TiviDocs", // Usually your repo name.
+  projectName: "EVO-Get-More", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -83,7 +83,7 @@ const config = {
         {
           name: "keywords",
           content:
-            "omnia, tieto- ja viestintätekniikka, koodaaminen, omnia github, omnia life extender, otlex, sql koodaus, vscode käyttö",
+            "evo, tieto- ja viestintätekniikka, koodaaminen, evo gm github, evo life extender, otlex, sql koodaus, vscode käyttö",
         },
       ],
       headTags: [
@@ -92,7 +92,7 @@ const config = {
           tagName: "link",
           attributes: {
             rel: "preconnect",
-            href: "https://omnia-docs.fi",
+            href: "https://evogm.com",
           },
         },
       ],
@@ -104,7 +104,7 @@ const config = {
       image: "img/seo.png",
       navbar: {
         logo: {
-          alt: "Omnia",
+          alt: "EVO",
           src: "img/logo.svg",
         },
         items: [
@@ -114,7 +114,7 @@ const config = {
             position: "left",
             label: "Helpottava materiaali",
           },
-          { to: "/blog", label: "Blogi", position: "left" },
+          // { to: "/blog", label: "Blogi", position: "left" },
           {
             href: "https://github.com/Hendalf-DEV",
             label: "GitHub",
@@ -161,7 +161,7 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `Copyright © ${new Date().getFullYear()} OMNIA TIVI Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} EVO GM Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
