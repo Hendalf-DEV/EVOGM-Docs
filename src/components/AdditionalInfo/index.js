@@ -7,14 +7,14 @@ const LisaInfo = [
   {
     title: (
       <Translate description="The homepage caution text">
-        VAROITUS, APUA, OMNIA ÄLÄ KOSKE
+        EVO GM - Kuka? Mikä?
       </Translate>
     ),
     description: (
       <Translate description="The homepage caution text">
-        Tämä ei ole virallinen Omnian sivusto, eikä Omnia hallitse tietoja joita
-        tänne on kirjattu. Näihin tiedostoihin voi tehdä muutoksia githubin
-        kautta, tekemällä pull-request, jos kiinnostaa.
+        Tämän web-sivuston idea on kehittää ja neuvoa muita kuinka voi
+        tehokkaasti käyttää menetelmiä jotka voivat edistää omaa työtä.
+        Käsittelyssä on paljon asioita.
       </Translate>
     ),
   },

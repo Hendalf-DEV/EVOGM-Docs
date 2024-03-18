@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# TiVi Omnia helpotus sivusto, mitä käsitellään?
+# EVO GM sivusto, mitä käsitellään?
 
-Hei! Aloitetaan pienemmästä, jatketaan suurempaan! Tällä sivustolla löydätte kaikki kelvolliset työkalut TiVi tehtävien tekemiseen. Jos teillä on kysyttävää ettikää sivuston tekijä >:O
+Hei! Aloitetaan pienemmästä, jatketaan suurempaan! Tällä sivustolla löydätte kaikki kelvolliset työkalut jotta voitte oppia koodaamista, ja kuinka voitte helpottaa joittenkin editorien tai muitten asioiden käyttöä.
 
 ## VSCode käyttö
 
